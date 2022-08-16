@@ -1,41 +1,11 @@
 # WinTerminal
 
-Does what it do. My personal setup for Windows Terminal applicaiton.
+My personal setup for Windows Terminal applicaiton.
 
 ## Usage
 Change the backgroundImage property to whatever you want, or leave it off entirely.
 ```JSON
 "backgroundImage": "C:\\users\\mhartman\\downloads\\21864ab.gif"
-```
-If the style is burning your eyeballs, remove the retro terminal effect.
-
-```JSON
-"experimental.retroTerminalEffect": true
-```
-Retro schema:
-```JSON
-    "schemes": [
-        {
-            "name": "Retro",
-            "background": "#000000",
-            "black": "#00ff00",
-            "blue": "#00ff00",
-            "brightBlack": "#00ff00",
-            "brightBlue": "#00ff00",
-            "brightCyan": "#00ff00",
-            "brightGreen": "#00ff00",
-            "brightPurple": "#00ff00",
-            "brightRed": "#00ff00",
-            "brightWhite": "#00ff00",
-            "brightYellow": "#00ff00",
-            "cyan": "#00ff00",
-            "foreground": "#00ff00",
-            "green": "#00ff00",
-            "purple": "#00ff00",
-            "red": "#00ff00",
-            "white": "#00ff00",
-            "yellow": "#00ff00"
-        }
 ```
 
 Documentation: https://docs.microsoft.com/en-us/windows/terminal/custom-terminal-gallery/custom-schemes
